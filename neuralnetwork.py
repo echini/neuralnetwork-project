@@ -29,8 +29,7 @@ df_for_training_scaled = scaler.transform(df_for_training)
 
 
 #As required for LSTM networks, we require to reshape an input data into n_samples x timesteps x n_features. 
-#In this example, the n_features is 2. We will make timesteps = 3. 
-#With this, the resultant n_samples is 5 (as the input data has 9 rows).
+
 trainX = []
 trainY = []
 
